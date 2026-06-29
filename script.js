@@ -1,4 +1,4 @@
 function showTips() {
-   document.getElementById("moreTips").textContent =
-      "More tips: Use two-factor authentication, avoid public Wi-Fi for private accounts, and back up important files.";
+    document.getElementById("moreTips").innerHTML =
+        "More tips: Use two-factor authentication, avoid public Wi-Fi, and back up important files.";
 }
