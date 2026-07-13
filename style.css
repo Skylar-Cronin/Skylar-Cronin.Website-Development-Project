@@ -193,3 +193,34 @@ footer a {
 #contact button:hover {
    background-color: #004c99;
 }
+.cta {
+   background-color: #0066cc;
+   color: white;
+   text-align: center;
+   padding: 40px 20px;
+   margin: 30px 0;
+   border-radius: 8px;
+}
+
+.cta h2 {
+   margin-bottom: 15px;
+}
+
+.cta p {
+   max-width: 700px;
+   margin: 0 auto 20px;
+}
+
+.cta .button {
+   display: inline-block;
+   background-color: white;
+   color: #0066cc;
+   padding: 12px 24px;
+   text-decoration: none;
+   border-radius: 5px;
+   font-weight: bold;
+}
+
+.cta .button:hover {
+   background-color: #e6e6e6;
+}
