@@ -16,7 +16,15 @@ header {
     align-items:center;
     padding:20px 40px;
 }
+.top-header h1{
+    margin:0;
+    text-align:center;
+}
 
+.top-header p{
+    margin-top:8px;
+    text-align:center;
+}
 .logo {
    border: 2px solid #333;
    padding: 20px;
