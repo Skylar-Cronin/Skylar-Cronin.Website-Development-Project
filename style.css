@@ -329,3 +329,25 @@ footer a {
     width: 200px;
     align-self: center;
 }
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+footer ul li {
+    margin: 10px 0;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover {
+    color: #7ec8ff;
+    text-decoration: underline;
+}
