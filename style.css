@@ -10,12 +10,11 @@ header {
    border-bottom: 2px solid #ccc;
 }
 
-.top-header {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   padding: 20px;
-   text-align: center;
+.top-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
 }
 
 .logo {
