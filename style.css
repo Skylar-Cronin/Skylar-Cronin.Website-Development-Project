@@ -224,3 +224,25 @@ footer a {
 .cta .button:hover {
    background-color: #e6e6e6;
 }
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+    background-color: #0b3d91;
+    flex-wrap: wrap;
+}
+
+.btn {
+    color: white;
+    background-color: #1f5fd1;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #1548a6;
+}
