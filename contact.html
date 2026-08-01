@@ -4,37 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<nav>
-    <a class="btn" href="index.html">Home</a>
-    <a class="btn" href="about.html">About Cybersecurity</a>
-    <a class="btn" href="common threats.html">Common Threats</a>
-    <a class="btn" href="prevention tips.html">Prevention Tips</a>
-    <a class="btn" href="contact.html">Contact</a>
-    <a class="btn" href="resources.html">Resources</a>
-</nav>
+<header>
 
-<h1>Contact</h1>
+    <div class="top-header">
+
+        <div class="logo">
+            🛡️ Cybersecurity
+        </div>
+
+        <div class="header-title">
+            <h1>Cybersecurity Awareness Center</h1>
+            <p>Stay Safe. Stay Smart. Stay Secure.</p>
+        </div>
+
+        <input type="search" placeholder="Search...">
+
+    </div>
+
+    <nav class="nav-buttons">
+        <a class="btn" href="index.html">Home</a>
+        <a class="btn" href="about.html">About Cybersecurity</a>
+        <a class="btn" href="common-threats.html">Common Threats</a>
+        <a class="btn" href="prevention-tips.html">Prevention Tips</a>
+        <a class="btn" href="contact.html">Contact</a>
+        <a class="btn" href="resources.html">Resources</a>
+    </nav>
+
+</header>
+
+<main>
+
+<section class="page-content">
+
+<h1>Contact Us</h1>
 
 <p>
-Questions or feedback? We'd love to hear from you!
+Have questions or feedback? We'd love to hear from you!
 </p>
 
-<form>
-    <label>Name:</label><br>
-    <input type="text"><br><br>
+<form class="contact-form">
 
-    <label>Email:</label><br>
-    <input type="email"><br><br>
+<label for="name">Name</label>
+<input type="text" id="name" required>
 
-    <label>Message:</label><br>
-    <textarea rows="5" cols="40"></textarea><br><br>
+<label for="email">Email</label>
+<input type="email" id="email" required>
 
-    <input type="submit" value="Send">
+<label for="message">Message</label>
+<textarea id="message" rows="6" required></textarea>
+
+<button class="button" type="submit">Send Message</button>
+
 </form>
+
+</section>
+
+</main>
+
+<footer>
+
+<p>© 2026 Skylar Cronin | Cybersecurity Awareness Center</p>
+
+</footer>
 
 </body>
 </html>
