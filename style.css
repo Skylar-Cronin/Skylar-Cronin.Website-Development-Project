@@ -200,6 +200,7 @@ footer a {
 #contact button:hover {
    background-color: #004c99;
 }
+
 .cta {
    background-color: #0066cc;
    color: white;
@@ -231,6 +232,7 @@ footer a {
 .cta .button:hover {
    background-color: #e6e6e6;
 }
+
 .nav-buttons {
     display: flex;
     justify-content: center;
@@ -253,4 +255,38 @@ footer a {
 
 .nav-buttons a:hover {
     background-color: #1f5fd1;
+}
+
+.page-content{
+    max-width:1200px;
+    margin:50px auto;
+    padding:20px;
+}
+
+.page-content h1{
+    text-align:center;
+    color:#0b3d91;
+    margin-bottom:20px;
+}
+
+.page-content h2{
+    text-align:center;
+    color:#0b3d91;
+    margin:40px 0 20px;
+}
+
+.page-content p{
+    font-size:18px;
+    line-height:1.7;
+    text-align:center;
+}
+
+.header-title{
+    flex:1;
+    text-align:center;
+}
+
+.btn.active{
+    background-color:#1f5fd1;
+    color:white;
 }
